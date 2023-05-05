@@ -1,0 +1,103 @@
+#padre{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+.card{
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    width: 60%;
+    text-align: center;
+    padding-bottom: 16px;
+    margin:auto;
+    box-shadow: -3px 8px 42px 10px rgba(153,153,153,0.74);
+    -webkit-box-shadow: -3px 8px 42px 10px rgba(153,153,153,0.74);
+    -moz-box-shadow: -3px 8px 42px 10px rgba(153,153,153,0.74);
+    background-color: white;
+}
+
+* {
+    color: rgb(77, 77, 77);
+  }
+.card-p1{
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    width: 60%;
+    text-align: center;
+    padding-bottom: 16px;
+    margin:auto;
+    box-shadow: -3px 8px 42px 10px rgba(153,153,153,0.74);
+    -webkit-box-shadow: -3px 8px 42px 10px rgba(153,153,153,0.74);
+    -moz-box-shadow: -3px 8px 42px 10px rgba(153,153,153,0.74);
+    background-color: white;
+}
+.respuesta-p1{
+    border: 2px solid gainsboro;
+    border-radius: 16px;
+    width: 90%;
+    padding:20px;
+    margin-bottom: 16px;
+    margin: 10px auto;
+    background-color: white;
+    color: #4d4d4d;
+    height: 30px;
+    
+  }
+
+.respuesta-p1:hover{
+  background-color: #f8e463;
+  color: white;
+}
+
+.resultados{
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    width: 60%;
+    text-align: center;
+    padding-bottom: 16px;
+    margin:auto;
+    box-shadow: -3px 8px 42px 10px rgba(153,153,153,0.74);
+    -webkit-box-shadow: -3px 8px 42px 10px rgba(153,153,153,0.74);
+    -moz-box-shadow: -3px 8px 42px 10px rgba(153,153,153,0.74);
+    background-color: white;
+}
+
+body{
+    font-family: 'Roboto';
+    background-image:url("https://scontent.fsrz1-1.fna.fbcdn.net/v/t39.30808-6/343937631_806633017549654_7423443256689938737_n.jpg?stp=dst-jpg_p180x540&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=61i7aaWavGEAX8afN3v&_nc_oc=AQkBRXPfmEH5fHLKrYTp3ibRDnQ1dvgxYRPzxGjJNtXZnC3A_Ez0CPIsyCSFuTVdJtA&_nc_ht=scontent.fsrz1-1.fna&oh=00_AfA5iQHecYJU7MT031hm9dj3OO2GZ-VDl8NONAW301GF1A&oe=6458B6FD");
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+}
+
+/*.resultado {
+    display: none;
+}*/
+
+.resultados{
+  display: inline-block;
+}
+
+#oculto {
+    display: none;
+
+  }
+
+label{
+  display: block;
+}
+
+input[type="radio"]{
+  display:none;
+}
+
+#barra-progreso {
+    width: 90%;
+    /* centrado del elemento */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

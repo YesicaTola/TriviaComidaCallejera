@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Grupo Imparables</title>
+  <link rel="stylesheet" href="TriviaComida.css">
+  <script src="trivia.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css2?family=Cookie&display=swap' rel='stylesheet'>
+</head>
+
+<body>
+  <div id="padre">
+    <div class="card">
+      <h1 class="titulo-principal" style="font-family:Cookie;font-size: 60px;">Bolivian Street Foodie</h1>
+      <img src="foodie-logotrivia.png" width="130" height="100">
+      <p class="descripcion">¡Prueba tus conocimientos como buen amante de la comida callejera en nuestro país!</p>
+
+      <div class="formulario">
+        <form class="formulario-registro" name="form">
+          <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+          <br>
+          <br>
+          <button id="iniciar" onClick="enviar('preguntas/preg-1.html')" onmousedown="sonido.play()">Comenzar</button>
+          <script type="text/javascript">
+            var sonido = new audio();
+            sonido.src = "sonido.mp3";
+          </script>
+
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Grupo Imparables</title>
+  <link rel="stylesheet" href="../TriviaComida.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+</head>
+
+<body>
+  <div id="padre">
+    <div class="card-p1">
+      <progress id="barra-progreso" max="100" value="0"></progress>
+      <img src="../foodie-logotrivia.png" width="110" height="80">
+      <h3 class=" preguntas" style="text-align:center;">encabezado
+      </h3>
+      <hr>
+      <form action="">
+        <div class="respuestas">
+          <div class="respuesta-p1">
+            <label id='op1'>
+              <input type="radio" value="a" name="p1">op1
+            </label>
+
+          </div>
+          <div class="respuesta-p1">
+            <label id='op2'>
+              <input type="radio" value="a" name="p1">op2
+            </label>
+          </div>
+          <div class="respuesta-p1">
+            <label id='op3'>
+              <input type="radio" value="a" name="p1">op3
+            </label>
+          </div>
+
+          <script src="preg-1.js"></script>
+      </form>
+    </div>
+
+
+  </div>
+
+  <div class="resultados" style="display: none; margin: auto;">
+    <h3 id='resultado_titulo'></h3>
+    <img src="../foodie-logotrivia.png" width="110" height="80">
+    <p id='resultado_obtenido'>
+      <span id='estilo-excelente'></span>
+
+      <span id='estilo-bueno'></span>
+
+      <span id='estilo-aceptable'></span>
+
+      <span id='estilo-malo'></span>
+    </p>
+    <button onClick="reiniciar()">Volver a jugar</button>
+  </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
