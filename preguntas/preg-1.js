@@ -148,9 +148,8 @@ function mostrarResultado() {
     document.getElementById("estilo-aceptable").innerHTML = "¡Eres un conocedor promedio, pero puedes mejorar!"
 
   } else {
-    document.getElementById("estilo-malo").innerHTML = "Te falta conocer más de tu tierra. ¡Ánimate a probar más de nuestras delicias!"
+    document.getElementById("estilo-malo").innerHTML = "Te falta conocer más de tu tierra. ¡Ánimate a probar más de nuestra gastronomía!"
   }
-
 }
 
 function actualizarPuntaje(opcion) {
@@ -164,12 +163,12 @@ function actualizarPuntaje(opcion) {
   } else {
     mostrarResultado();
   }
-}
+};
 
 //Para reiniciar con el juego
 function reiniciar() {
-
+  i=0
   document.getElementsByClassName("resultados")[0].style.display = "none";
   document.getElementsByClassName("card-p1")[0].style.display = "block";
-
-}
+  siguiente_pregunta()
+};

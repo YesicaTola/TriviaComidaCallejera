@@ -73,18 +73,10 @@ body{
 
 }
 
-/*.resultado {
-    display: none;
-}*/
 
 .resultados{
   display: inline-block;
 }
-
-#oculto {
-    display: none;
-
-  }
 
 label{
   display: block;
@@ -98,6 +90,43 @@ input[type="radio"]{
     width: 90%;
     /* centrado del elemento */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:5%;
+    margin-right:0%;
+      
+}
+
+#nombre{
+  border-radius: 10px;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+#iniciar{
+  
+  border-radius: 20px;
+  background-color: white;
+  color: #4d4d4d;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid gainsboro;
+  cursor: pointer;
+  
+}
+
+#iniciar:hover {
+  background-color: #f8e463;
+}
+
+#volver{
+  border-radius: 20px;
+  background-color: white;
+  color: #4d4d4d;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid gainsboro;
+  cursor: pointer;
+}
+
+#volver:hover {
+  background-color: #f8e463;
 }
